@@ -60,6 +60,7 @@ public class Person {
         for (Person li : personList){
             if (li.getCodigo()==codigo){
                 person=li;
+                break;
             }
         }
         return person;
